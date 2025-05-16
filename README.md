@@ -4,11 +4,13 @@ Eredeti adathalmaz:
 - https://www.kaggle.com/datasets/e0xextazy/pairs-comment-reply-from-reddit
 - 4270191 input
 
-train.csv: 80% az eredetiből
-test.csv: 20% az eredetiből
 
-tiny_test.csv: 1.000 input a test.csv-ből
-tiny_train.csv: 10.000 input a train.csv-ből
+- train.csv: 80% az eredetiből
+- test.csv: 20% az eredetiből
+
+
+- tiny_test.csv: 1.000 input a test.csv-ből
+- tiny_train.csv: 10.000 input a train.csv-ből
 
 ---------------------------------------------------------------
 
