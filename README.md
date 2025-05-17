@@ -69,3 +69,24 @@ A mapelés folyamata:
     main(mode="predicted") # ha listás kulcsszavak
 
 ---------------------------------------------------------------
+
+### Emojik összehasonlítása
+
+Összehasonlítjuk a két fájl esetén generált emojik milyen arányban egyeznek.
+Az összehasonlítás során soronként:
+- Az emojik halmazként kerülnek összevetésre
+- Kiszámítjuk:
+  - **Precision** – mennyi a találatok aránya a predikcióban
+  - **Recall** – mennyi valódi emoji került eltalálásra
+  - **F1-score** – a kettő harmonikus átlaga
+  - **Exact match** – pontos egyezés esetén 1
+
+A végső eredmény tartalmazza az összehasonlítás részletes eredményeit soronként:
+- `id`
+- `true_emojis`
+- `predicted_emojis`
+- `precision`, `recall`, `f1_score`
+- `exact_match` (0 vagy 1)
+
+
+---------------------------------------------------------------
