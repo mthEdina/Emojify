@@ -1,5 +1,8 @@
 # Emojify
 
+one_text.ipynb notebook segítségével kipróbálható tetszőleges szövegre az emojify 
+
+-----------------------------------------------------------
 Eredeti adathalmaz: 
 - https://www.kaggle.com/datasets/e0xextazy/pairs-comment-reply-from-reddit
 - 4270191 input
@@ -17,8 +20,7 @@ Eredeti adathalmaz:
 predictions.csv: 
 - kulcsszó-kiszedő algoritmus kimenete
 - a tiny_test.csv-ben lévő szövegek kulcsszavait tartalmazza
-
-- Dice-score a tiny_train.csv-n: 0.6788
+- Dice-score a tiny_train.csv-n (keyphraseness módszerrel): 0.6788
 
 ---------------------------------------------------------------
 ### Emojik mapelése
